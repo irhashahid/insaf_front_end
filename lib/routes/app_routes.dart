@@ -18,6 +18,6 @@ class AppRoutes {
     GetPage(name: onboarding, page: () => OnboardingScreen()),
     GetPage(name: login, page: () => LoginScreen()),
     GetPage(name: register, page: () => RegisterScreen()),
-    GetPage(name dashboard, page: () => DashboardScreen()),
+    GetPage(name: dashboard, page: () => DashboardScreen()),
   ];
 }
